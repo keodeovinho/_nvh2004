@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thư Tỏ Tình</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(to bottom, #ff7eb3, #ff758c);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+      }
+      .container {
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        overflow-y: auto; /* Enable scrolling */
+        max-height: 80vh;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      p {
+        font-size: 1.2em;
+        line-height: 1.8;
+      }
+      .signature {
+        margin-top: 20px;
+        font-style: italic;
+        font-size: 1em;
+      }
+      .buttons {
+        margin-top: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff5c8d;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      button:hover {
+        background-color: #ff2d6d;
+      }
+    </style>
+  </head>
+  <body>
+    <audio id="background-music" loop>
+      <source src="lovemusic.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+      <h1>Gửi đến người đặc biệt</h1>
+      <div id="content">
+        <p>Bạn nhỏ muốn đọc ver 1 hay ver 2 đây;></p>
+      </div>
+      <div class="buttons">
+        <button onclick="showVersion(1)">Ver 1</button>
+        <button onclick="showVersion(2)">Ver 2</button>
+        <button onclick="nextPage()">Next</button>
+      </div>
+    </div>
+
+    <script>
+      const audio = document.getElementById("background-music");
+
+      function showVersion(version) {
+        const content = document.getElementById("content");
+        if (version === 1) {
+          content.innerHTML = `
+                    <p>
+                        xin chào em bé iu, hôm nay là ngày 8/12/2024 0h25p
+
+                        Anh viết cái này vì lí do gì ta, có lẽ là để quyết tâm theo đuổi em. 27/12 này anh sẽ tỏ tình em, có thể anh đã biết kết quả nhưng anh vẫn sẽ tỏ tình. Anh muốn yêu một người mãi về sau, cho dù có chuyện gì đi nữa anh vẫn sẽ ở bên người đó. Anh yêu em, anh sẽ dùng sự dịu dàng để chăm sóc cho em, hong muốn em phải thiệc thòi với bất cứ điều gì trong tình yêu. Anh hong hứa sẽ yêu em mãi, nhưng anh sẽ cố gắng để có thể yêu em mãi, hai đứa mình cũng có nhiều kỉ niệm, từ lúc là bạn, những biệt danh em đặt cho anh như kẹo dẽo, cục đường (anh thích biệt danh này lắm ă, nếu mà tụi mình có yêu nhau thì anh muốn được gọi như này). Tụi mình chơi gem với nhau cũng nhiều, có những lúc hiểu nhau, những lúc hong hiểu nhau, anh sẽ cố gắng để hiểu được bạn nhỏ. Anh biết là em có rất nhiều tâm sự, rất nhiều chuyện buồn hong nói ra , anh hi vọng nếu như tụi mình có yêu nhau thì em sẽ tin tưởng anh và nói ra cho anh những chuyện đó. Anh sẵn sàng lắng nghe mọi thứ từ em, với anh chuyen đó hong có gì khó hết, anh có thể nghe em kể từ sáng đến chiều luôn cũng được, cái đáng sợ là chúng ta im lặng với nhau thoi. Anh hong biết đủ can đảm để gửi cái này đi cho em hay hong nữa, tận ngày 27/12, từ giờ đến đó còn rất là lâu, anh hong biết chuyện gì sẽ xảy ra nma cho dù có chuyen gì xảy ra anh vẫn sẽ yêu em. Một cái khiến anh hong dám bày tỏ nữa là chúng ta phải yêu xa một thời gian, điều đó khiến anh hong thể cho em được trọn vẹn về tình yêu, nó sẽ khuyết thiếu nhiều thứ, nào là đi ăn , đi chơi, gặp nhau hằng ngày, ... Anh sẽ kiems thêm việc gì làm nữa ròi tập trung học để nhanh nhanh tốt nghiệp có thể ở cạnh nhau gòii, đừng suy nghĩ là anh sẽ cực hay gì hết, trước hwy sau gì anh cũng phải làm điều đó.</p>
+                    <p> Anh biết cảm xúc bây giờ của em đang thất vọng về anh lắm, hôm nay là 1 ngày tệ của anh rồi, hong biết đến ngày 27/12 anh có thay đổi được cách nghĩ của bạn nhỏ hay hong nữa. Anh hong biết nên viết như vậy rồi gửi cho em luôn hay là gửi ở trong code, anh nghĩ trong code sẽ ngầu hơn và đáng iu hơn, hi vọng em sẽ đồng ý (nma nhớ  là suy nghĩ thật kĩ trước khi đồng ý ă), nếu từ chối cũng hong sao, tụi mình vẫn sẽ là bạn thoi, anh vẫn sẽ theo đuổi em ( tại anh yêu em nhiều ma hehe). Anh sẽ cho bạn nhỏ tất cả những thứ mà anh có, những thứ mà anh sẽ có, anh sẽ yêu bằng nhỏ bằng cả trái tim, bằng sự chân thành của anh
+                        bằng bằng bằng bằng bằng bằng bằng bawng =)))))). Hơi bí văn, àa anh coá lưu 1 câu như thế này " nếu như tôi được ở cạnh em một ngày tôi sẽ dịu dàng với em một ngày, nếu tôi được ở cạnh em một đời tôi sẽ dịu dàng với em một đời", nma gặp anh thì sai rồi, "nếu như đó là em tôi sẽ mãi mãi dịu dàng với em" thế nên EM CÓ ĐỒNG Ý LÀM BẠN GÁI ANH KHÔNG:3 
+                        Khi mà đọc xong em trả lời anh nheee, anh gửi xong sẽ trốn ở đouu đó 1 lúc, nếu mess hồng thì em đã ĐỒNG Ý, còn nếu "em cảm ơn" thì chúng ta vẫn làm bạn:3
+    
+
+
+                        • Em sẽ thích nhạc gì nhỉ ( hong lẽ tỏ tình mà exit sign 🥲) 
+                        • Nên chọn nền màu hồng hay màu xanh biển ta
+                        • Viết như vậy đủ chưa ta, tỏ tình đơn sơ quá vậy, thoi viết thêm ( nếu bạn nhỏ kéo xuống đến đây) 
+                                            
+                        Anh xin lỗi vì đây hong phải là một lần tỏ tình hoàn hảo, hong có hoa, hong có nến, hong được ở cạnh nhau. Cho dù lời tỏ tình này có được chấp nhận hay hong đi chăng nữa, chúng ta sẽ gặp nhau, đến khi đó sẽ có hoa, có nến, có những lời ngọt ngào để bù đắp cho sự thiếu sót lần này. Anh yêu em 💖
+                          </p>    
+                          <p class="signature">- Nguyen Vu Hung gui loi yeu thuong den emm -</p>                  
+                        `;
+        } else if (version === 2) {
+          content.innerHTML = `
+                    <p>
+                        hehehe lại là anhhh, hôm nay anh lại viết một tâm thư để tỏ tình bạn nhỏooo:3 
+                          Cái ver1 bảo là tận ngày 27/12 anh mới tỏ tình em nma anh hong chịu được ròi. Có nhiều đứa âm mưu đục tường để bắt em đi quá troi:<
+                          Hai đứa mình dạo này có thân thiết hơn ròi đoa, nên anh mới dám tỏ tình trong hôm nay ;)). Đủ má anh vừa đọc lại cái kia, tỏ tình mà như khóc lóc kể lễ =))
+
+                          Anh thích em nhiều lắm, dạo này anh cứ bị bất thường ý, cảm giác nhớ em ngày một nhiều, anh muốn gặp em, đi chơi với em lắm gòi, mấy hnay ă, có mấy thg cứ đòi làm quen với em. Anh sợ mất em vcl ra, nma anh cũng vui lắm đoaa bạn nhỏ nói mấy thg đó với anhh. Tụi mình cởi mở hơn với nhau gòi đoa, anh thâhs nếu bây giờ tỏ tình thì cơ hội thành công cao nhất gòi, "đánh dấu chủ quyền"=)). Đoạn này anh hong biết nói gì nữa ---- anh đã trở lại 1h40 phút, quyết tâmm gòi. Nói từ đâu giờ ta, cũng đã lâu ròi anh hong tin vào tình yêu nữa, anh nghĩ "tình đẹp đến mấy cũng tan". Tới khi gặp em, anh thích em mà anh hong hay biết luon, sau 1 khoảng thì anh mới cảm nhận được là anh thật sự thích em, nói chuyện hay chơi với em đều cảm thấy vui cả. Một ngày đi làm về xong là skincare lẹ lẹ để chơi với em =))
+                                              </p>
+                                              <p>
+                          Lần này anh muốn cả hai sẽ là người cuối cùng của nhau, anh nghĩ cả hai đều muốn vậy;3. Anh nghĩ nếu hai đứa yêu nhau thì năm sau mình sẽ gặp nhau, anh chỉnh chu lại mọi thứ mới đựt, chăm sóc bản thân hơn để gặp em =))), aaaaa em lại nghĩ đến chia tay nữa ròi kìa, hdkahwieheh phải ở cạnh thì tốt biết mấy 😭. Dạo gần đây anh coá nhiều quyết tâm lắm gòi đoa, anh muốn được yêu bạn nhỏ, anh học tốt hơn lúc trước, aaaa hong kể lễ khóc lóc nữa ;)). Em còn dạy anh cách tán gái nữa, dạy gòi anh sẽ áp dụng ngược lại=)), anh thấy tụi mình khác hợp để yêu nhau đó, anh hong biết bạn nhỏ thích anh ở điểm gì ta, giờ còn thích hay hong, hay là thích ở một điểm khác ròi, anh cũng muốn biết anh là một người như thế nào trong mats bạn nhỏ. Mấy ngày trước anh cũng coá nói về anh hiểu bạn nhỏ như nào gòi he, anh thích bạn nhỏ nhiều quáaaa. Chết gòi lúc thì gọi em lúc thì gọi bạn nhỏ, tại anh muốn cái tâm thư này nó nghiêm túc nên anh dùng từ em nma anh quen gòi là bạn nhỏ gòi =)). Bạn nhỏ hay thức xuyên đêm lắm, hnhu anh thấy 2-3 lần gòi, phải chăm cơ thể choo tốt vào đó. Bạn nhỏ muốn đọc gòi chắc ver2 dừng ở đây thoai, sau này anh vẫn viết tâm thư để cho bạn nhỏ đọc thưowngf xuyên nma lần này là để tỏ tìnhhhh. EM CÓ ĐỒNG Ý CHO ANH CƠ HỘI LÀM BẠN TRAI CỦA EM KHÔNG, =)) như ở ver1 bạn nhỏ hãy nghĩ kĩ trước khi quyết định nheee, anh tôn trọng quyết định của bạn nhỏoo:3
+                                              
+                          Anh yêu em nhiềuuuu 💖
+                          cái ver1 anh viết lúc mà 8/12 ă, anh chưa sửa gì nữa, anh để y vậy cho bạn nhỏ đọc đoaa
+                                              
+                                              
+                                              
+                                              
+                          <br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br /> <br />                   
+                                              
+                                              
+                                              
+                           Cái này hong phải 100% do anh code, anh hong coá cao siêu đến vậy nma anh gom mấy cái idea lại ròi canh chỉ fixx các thứ các thử để dược 1 bức thư tỏ tình hoàn chỉnh:3, anh dùng nhạc này cũng vì đó là bản nhạc mà bạn nhỏ đã lựa chọn trong lần sinh nhật anh;3 lúc đầu anh định chọn mấy bản nhạc yêu nhau nma thấy bản này ý nghĩa hơn uwu, lỡ tới đây gòi anh muốn nói với bạn nhỏ là " Anh yêu em, anh đã sẵn sàng cho một câu chuyện tình lãng mạn, chuyện tình mà hai đứa mình là nhân vật chính, tuy chuyện tình này sẽ hơi khó khăn ở giai đoạn đầu nhưng mà anh tin chúng ta sẽ cùng nhau cố gắng để vượt qua nó để dược ở bên nhau -- mai mai cung nhau"                  
+                          <br />                   
+                          Đọc xong gọi ấn next có điều bất ngờ ă uwu
+                    </p>
+                    <p class="signature">- Nguyen Vu Hung gui loi yeu thuong den emm -</p>
+                `;
+        }
+        audio.play(); // Start the music when a version is selected
+      }
+
+      function nextPage() {
+        window.location.href = "../totinh/totinh.html";
+      }
+    </script>
+  </body>
+</html>
